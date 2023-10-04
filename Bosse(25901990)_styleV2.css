@@ -78,4 +78,32 @@
         cursor: pointer;
         display: none;
       }
-      
+     
+      /* Breakpoints*/
+@media (max-width: 992px) {
+    .header {
+        padding: 1.3rem 5%;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .icons {
+        display: inline-flex;
+    }
+  
+  
+    #check-it-out:checked~.icons #the-menu-icon {
+       display: none;
+    }
+  
+  
+    .icons #the-close-icon{
+        display: none;
+  
+  
+    }
+  
+  
+    #check-it-out:checked~.icons #the-close-icon {
+        display: block;}
