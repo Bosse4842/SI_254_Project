@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins","sans-serif";
+    }
+  
+  
+    body{
+    min-height: 100vh;
+    background: url('Perold Building.jpg') no-repeat;                                  /* (FIXED : INSERTED BACKDROP-FILTER INTO WRONG AREA )why is it not just blurring the padded area, change it to only blur padded  area*/            
+    background-size: cover;
+    background-position: center;
+    }
