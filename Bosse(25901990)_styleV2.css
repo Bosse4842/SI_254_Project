@@ -57,6 +57,10 @@
   
     body{
     scroll-behavior: smooth;
+    min-height: 100vh;
+    background: url('../SI_254_Project/Images/Perold\ Building.jpg') no-repeat;                                  /* (FIXED : INSERTED BACKDROP-FILTER INTO WRONG AREA )why is it not just blurring the padded area, change it to only blur padded  area*/            
+    background-size: cover;
+    background-position: center;
     }
    
   .header {
@@ -291,3 +295,31 @@
     max-width: 100%;
   }
   
+  @media (max-width: 768px) {
+    .profile-container {
+        width: 40vh;
+        padding: 10px;
+    }
+  
+  
+  }
+  /* For larger screens */
+  @media (min-width: 992px) {
+    body {
+      font-size: 18px; /* or 1.125rem; Adjust as necessary */
+    }
+  }
+  
+  /* For medium screens */
+  @media (min-width: 768px) and (max-width: 991px) {
+    body {
+      font-size: 16px; /* or 1rem; Adjust as necessary */
+    }
+  }
+  
+  /* For small screens */
+  @media (max-width: 767px) {
+    body {
+      font-size: 14px; /* or 0.875rem; Adjust as necessary */
+    }
+  }
