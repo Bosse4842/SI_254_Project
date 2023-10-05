@@ -147,4 +147,29 @@ left: 100px;
 }
 }
 
+.academics-body {
+  background: url(.//Images/Perold\ Building.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*.cob-body {
+  background: url('path/to/your/cob-background-image.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contacts-body {
+  background: url('path/to/your/contacts-background-image.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.study-body {
+  background: url('path/to/your/study-background-image.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+*/
+
 
