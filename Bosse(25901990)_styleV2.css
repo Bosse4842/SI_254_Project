@@ -164,11 +164,19 @@
     height: 17.7rem;
   }
 
-  .navbar a{
+  .navbar a {
     display: block;
     font-size: 1.1rem;
     margin: 1.8rem 0;
     text-align: center;
+    transform: translateY(-50px);
+    transition: 1.5s ease;
+
+  }
+
+  #check:checked~.navbar a {
+    transform: translateY(0);
+    transition-timing-function: calc(.15s * var(--i));
   }
 }
   
