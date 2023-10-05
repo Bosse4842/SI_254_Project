@@ -149,12 +149,13 @@
   }
 
   #check:checked~.icons #menu-icon {
-    display: none;
+    cursor: pointer;  /* Change 'pointer' to the cursor style you need */
+
   }
 
-  .icons #close-icon {
-    display: none;
-  }
+  /* .icons #close-icon {
+     display: none; 
+  } */
 
   #check:checked~.icons #close-icon{
     display: block;
@@ -171,6 +172,15 @@
     box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
     overflow: hidden;
     transition: 1.5s ease;
+  }
+
+  .icons {
+    position: absolute;
+    right: 5%;
+    font-size: 2.8rem;
+    color: #fff;
+    cursor: pointer;
+    display: block;
   }
 
   #check:checked~.navbar{
