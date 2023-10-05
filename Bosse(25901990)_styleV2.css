@@ -106,6 +106,10 @@
     /* display: fixed; */
   }
 
+  #check {
+    display: none;
+  }
+
   .icons {
     position: absolute;
     right: 5%;
@@ -131,8 +135,16 @@
     display: inline-flex;
   }
 
+  #check:checked~.icons #menu-icon {
+    display: none;
+  }
+
   .icons #close-icon {
     display: none;
+  }
+
+  #check:checked~.icons #close-icon{
+    display: block;
   }
 
   .navbar {
