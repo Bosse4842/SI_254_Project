@@ -69,6 +69,8 @@
     left: 0;
     width: 100%;
     padding: 1.3rem 10%;
+    /* background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,14 +127,14 @@
 
   .icons {
     position: absolute;
-    right: 5%;
+    right: 5%; 
     font-size: 2.8rem;
     color: #fff;
     cursor: pointer;
-    position: absolute;
+    /* position: absolute;
     right: 5%;
     font-size: 2.8rem;
-    color: #fff;
+    color: #fff; */
     display: none;
   }
   
@@ -149,13 +151,13 @@
   }
 
   #check:checked~.icons #menu-icon {
-    cursor: pointer;  /* Change 'pointer' to the cursor style you need */
+    display: none;  
 
   }
 
-  /* .icons #close-icon {
+  .icons #close-icon {
      display: none; 
-  } */
+  }
 
   #check:checked~.icons #close-icon{
     display: block;
