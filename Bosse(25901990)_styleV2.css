@@ -157,16 +157,25 @@ left: 100px;
 
 .study {
   background: url('.//Images/jm_venues.jpg') no-repeat center center fixed;
-  /* ... other background styling ... */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .cob {
   background: url('.//Images/cob_1.jpg') no-repeat center center fixed;
-  /* ... other background styling ... */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .contacts {
   background: url('../SI_254_Project/Images/contacts_5.jpg') no-repeat center center fixed;
-  /* ... other background styling ... */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
