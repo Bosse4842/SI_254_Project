@@ -104,7 +104,7 @@
     display: none;
   }
   
- 
+ /*  
   .header::before {
     content: '';
     position: absolute;
@@ -152,7 +152,7 @@
   */
   
   
-  
+  /*  
   #check-it-out{
     display: none;
   
@@ -161,7 +161,7 @@
   
   }
   
-  
+  */
   
   
   /*.icons {
@@ -177,23 +177,24 @@
   
   
   /* Breakpoints*/
+  /*  
   @media (max-width: 992px) {
     .header {
         padding: 1.3rem 5%;
     }
   }
   
+  */
   
-  
-  
+  /*  
   @media (max-width: 768px) {
     .icons {
         display: inline-flex;
     }
   
+  */
   
-  
-  
+  /*
     #check-it-out:checked~.icons #the-menu-icon {
        display: none;
     }
@@ -260,6 +261,8 @@
   }
   
    /* TUESDAY NIGHT WORK*/
+
+   /*  */
    .profile-container {
     position: relative;
     /* width: 350px; */
