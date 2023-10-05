@@ -147,28 +147,29 @@ left: 100px;
 }
 }
 
-.academics-page {
-  background: url('../Images/Rooiplein.jpg') no-repeat center center fixed;
+.academics {
+  background: url('.//Images/Rooi_Plein_1.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.cob-page {
-  background: url('../path/to/cob-background.jpg') no-repeat center center fixed;
+.study {
+  background: url('.//Images/jm_venues.jpg') no-repeat center center fixed;
+  /* ... other background styling ... */
+}
+.cob {
+  background: url('.//Images/cob_1.jpg') no-repeat center center fixed;
   /* ... other background styling ... */
 }
 
-.contacts-page {
-  background: url('../path/to/contacts-background.jpg') no-repeat center center fixed;
+.contacts {
+  background: url('../SI_254_Project/Images/contacts_5.jpg') no-repeat center center fixed;
   /* ... other background styling ... */
 }
 
-.study-page {
-  background: url('../path/to/study-background.jpg') no-repeat center center fixed;
-  /* ... other background styling ... */
-}
+
 
 
 
