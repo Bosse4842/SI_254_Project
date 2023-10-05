@@ -146,10 +146,5 @@ left: 100px;
   transition-delay: calc(.15s * var(--i));
 }
 }
-.section-title {
-  color: orange; /* Setting the text color to orange */
-  font-size: 2em; /* Increasing the font size for visibility */
-  padding: 20px; /* Adding some padding for better layout */
-  text-align: center; /* Center-aligning the text */
-}
+
 
