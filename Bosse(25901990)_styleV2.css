@@ -6,6 +6,7 @@
   }
 
   body{
+  padding-top: 60px;
   scroll-behavior: smooth;
   min-height: 100vh;
   background: url('../SI_254_Project/Images/Perold\ Building.jpg') no-repeat;                                  /* (FIXED : INSERTED BACKDROP-FILTER INTO WRONG AREA )why is it not just blurring the padded area, change it to only blur padded  area*/            
@@ -22,6 +23,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
 }
 
 .header::before {
@@ -46,7 +48,6 @@ height: 100%;
 background: linear-gradient(90deg, transparent, rgba(225,255,255, .4), transparent);
 transition: 0.8s;
 z-index: 100;
-
 }
 
 .header:hover::after{
@@ -61,7 +62,7 @@ left: 100px;
 }
 
 .navbar a {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
@@ -69,6 +70,18 @@ left: 100px;
   /* display: fixed; */
   z-index: 1000;
   position: relative;
+  flex: 1; /* Allow nav items to grow to take up equal width */
+  text-align: center; /* Center the text within each nav item */
+  padding: 10px; /* Add some padding around each nav item */
+  overflow: hidden; /* Hide overflowed content */
+  white-space: nowrap; /* Prevent text within nav items from wrapping */
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 456px) {
+  .navbar a {
+    font-size: 12px; /* or whatever size you want for small screens */
+  }
 }
 
 #check {
@@ -117,13 +130,16 @@ left: 100px;
 .navbar {
   top: 100%;
   left: 0;
-  width: 100%;
+  width: 100vh;
   height: 0;
   background: rgba(0, 0, 0, .1);
   backdrop-filter: blur(50px);
   box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
   overflow: hidden;
   transition: 1.5s ease;
+  display: flex;
+  flex-wrap: wrap; /* Allow the nav items to wrap onto the next line if there isn't enough space */
+  justify-content: space-around;
 }
 
 .icons {
@@ -216,7 +232,7 @@ left: 100px;
 }
 
 .profile-pic {
-  width: 60%; /* Adjust the width as needed */
+  width: 80%; /* Adjust the width as needed */
   border-radius: 50%; /* This will make the image circular; remove if not needed */
 }
 
@@ -229,7 +245,145 @@ left: 100px;
   font-size: 25px;
 }
 
-.contacts-text {
-  color: white;
+.emergency-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
+
+.emergency-item {
+  margin-bottom: 8px;
+  /* Add any specific styling for each list item here */
+}
+
+.emergency-link {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.emergency-link:hover {
+  color: orange;
+}
+
+.academics-container {
+  position: absolute;
+  height: 90vh;
+  width: 80vh; 
+  margin: 80px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+}
+
+.box {
+    width: 80%; 
+    height: 10vh; 
+    background-color: white;
+    border-radius: 10px; 
+    margin: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-link {
+    text-decoration: none;
+    color: black; 
+    font-size: 16px; 
+}
+
+.study-container {
+  position: absolute;
+  height: 90vh;
+  width: 80vh; 
+  margin: 80px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row; /* Updated from column to row */
+  align-items: center;
+  justify-content: center; 
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.box {
+  background-color: white;
+  border-radius: 10px;
+  height: 25vh;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  display: flex; /* Added */
+  flex-direction: column; /* Added */
+  align-items: center; /* Added */
+}
+
+.box-image {
+  max-width: 20vh;
+  border-radius: 5px; /* Optional: for rounded image corners */
+}
+
+.box-link {
+  display: block;
+  margin-top: 10px; /* Adjust as necessary */
+  text-decoration: none;
+  color: black; /* Or any color you prefer */
+}
+
+
+.emergency-heading {
+  font-size: 1.5rem; /* Adjust font size as needed */
+  color: #080808; /* Adjust color as needed */
+  margin-bottom: 1rem;
+  text-align: center; /* Center the heading */
+}
+
+.emergency-list {
+  list-style-type: none; /* Removes default list styling */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers items horizontally */
+  justify-content: space-around; /* Distributes items equally */
+  height: 120%; /* Adjust height as needed */
+}
+
+.emergency-item {
+  width: 120%; /* Takes full width of the container */
+  text-align: center; /* Center the text */
+  margin: 0.5rem 0; /* Adjust margin as needed */
+}
+
+.emergency-link {
+  font-size: 1rem; /* Adjust font size as needed */
+  color: #030303; /* Adjust color as needed */
+  text-decoration: none; /* Removes underline from links */
+}
+
+/* Add hover effect for links (Optional) */
+.emergency-link:hover {
+  text-decoration: underline; /* Adds underline on hover */
+  color: #ffd700; /* Adjust hover color as needed */
+}
+
+
+
+
+/* Styling for Menu Button (when window is small) */
+
+
+
+
 
