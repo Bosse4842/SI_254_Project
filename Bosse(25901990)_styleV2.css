@@ -194,14 +194,16 @@ left: 100px;
 }
 
 #main-section {
+  padding-top:20vh ;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120vh; /* or any specific height you want */
+  height: 140vh; /* or any specific height you want */
 }
 
 .profile-pic-container {
   position: absolute;
+  height: 110vh;
   width: 80vh; 
   margin: 80px; /* Adjust this value to position the container as needed */
   padding: 15px;
