@@ -111,6 +111,14 @@
   }
 }
 
+@media (max-width: 768px) {
+  .icons {
+    display: block;
+  }
+}
+  
+
+
 
 
 
