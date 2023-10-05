@@ -131,6 +131,10 @@
     display: inline-flex;
   }
 
+  .icons #close-icon {
+    display: none;
+  }
+
   .navbar {
     position: absolute;
     top: 100%;
