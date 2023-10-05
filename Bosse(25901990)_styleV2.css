@@ -178,8 +178,56 @@ left: 100px;
   background-size: cover;
 }
 
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
 
 
+.profile-pic {
+  max-height: 100%;
+  max-width: 100%;
+}
 
+#main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh; /* or any specific height you want */
+}
 
+.profile-pic-container {
+  position: absolute;
+  width: 80vh; 
+  margin: 80px; /* Adjust this value to position the container as needed */
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 60%; /* Adjust the width as needed */
+  border-radius: 50%; /* This will make the image circular; remove if not needed */
+}
+
+.profile-text {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.contacts-text {
+  color: white;
+}
 
