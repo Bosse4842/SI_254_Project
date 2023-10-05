@@ -147,29 +147,29 @@ left: 100px;
 }
 }
 
-.academics-body {
-  background: url(.//Images/Perold\ Building.jpg) no-repeat;
+.academics-page {
+  background: url('../Images/Rooiplein.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: center;
 }
 
-/*.cob-body {
-  background: url('path/to/your/cob-background-image.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
+.cob-page {
+  background: url('../path/to/cob-background.jpg') no-repeat center center fixed;
+  /* ... other background styling ... */
 }
 
-.contacts-body {
-  background: url('path/to/your/contacts-background-image.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
+.contacts-page {
+  background: url('../path/to/contacts-background.jpg') no-repeat center center fixed;
+  /* ... other background styling ... */
 }
 
-.study-body {
-  background: url('path/to/your/study-background-image.jpg') no-repeat;
-  background-size: cover;
-  background-position: center;
+.study-page {
+  background: url('../path/to/study-background.jpg') no-repeat center center fixed;
+  /* ... other background styling ... */
 }
-*/
+
+
 
 
