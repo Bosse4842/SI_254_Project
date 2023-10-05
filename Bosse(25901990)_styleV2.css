@@ -262,12 +262,10 @@
   
    /* TUESDAY NIGHT WORK*/
 
-   /*  */
-   .profile-container {
+   /*
+.profile-container {
     position: relative;
-    /* width: 350px; */
-    /* width: 80vh; */
-    margin: 80px; /* Adjust this value to position the container as needed */
+    margin: 80px;
     padding: 15px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -275,16 +273,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
+*/
+
+  /*.profile-pic {
+    width: 60%; 
+    border-radius: 50%;}*/
   
-  .profile-pic {
-    width: 60%; /* Adjust the width as needed */
-    border-radius: 50%; /* This will make the image circular; remove if not needed */
   
-  
-  }
-  
-  .profile-text {
+ /* .profile-text {
     margin-top: 10px;
     color: white;
     text-align: center;
@@ -292,6 +289,7 @@
     margin-bottom: 20px;
     font-size: 25px;
   }
+  */
   .section-title {
     color: orange; /* Setting the text color to orange */
     font-size: 2em; /* Increasing the font size for visibility */
@@ -305,12 +303,12 @@
   /* last nights work */
   
   
-  .section-container{
+  /*.section-container{
     display: flex;
   }
+  */
   
-  
-  .profile-pic-container {
+ /* .profile-pic-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -318,38 +316,36 @@
     width: 400px;
     margin: auto 0;
   }
+  */
   
-  
-  .profile-pic {
+  /*.profile-pic {
     max-height: 100%;
     max-width: 100%;
   }
-  
-  @media (max-width: 768px) {
+  */
+  /*@media (max-width: 768px) {
     .profile-container {
         width: 40vh;
         padding: 10px;
     }
+  */
   
   
-  }
   /* For larger screens */
-  @media (min-width: 992px) {
+  /*@media (min-width: 992px) 
     body {
       font-size: 18px; /* or 1.125rem; Adjust as necessary */
-    }
-  }
+  
   
   /* For medium screens */
+  /*
   @media (min-width: 768px) and (max-width: 991px) {
     body {
       font-size: 16px; /* or 1rem; Adjust as necessary */
-    }
-  }
-  
+    
   /* For small screens */
+  /*
   @media (max-width: 767px) {
     body {
       font-size: 14px; /* or 0.875rem; Adjust as necessary */
-    }
-  }
+    
