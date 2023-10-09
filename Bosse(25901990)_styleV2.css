@@ -70,17 +70,17 @@ left: 100px;
   /* display: fixed; */
   z-index: 1000;
   position: relative;
-  flex: 1; /* Allow nav items to grow to take up equal width */
-  text-align: center; /* Center the text within each nav item */
-  padding: 10px; /* Add some padding around each nav item */
-  overflow: hidden; /* Hide overflowed content */
-  white-space: nowrap; /* Prevent text within nav items from wrapping */
+  flex: 1; 
+  text-align: center; 
+  padding: 10px; 
+  overflow: hidden; 
+  white-space: nowrap; 
   text-overflow: ellipsis;
 }
 
 @media (max-width: 456px) {
   .navbar a {
-    font-size: 12px; /* or whatever size you want for small screens */
+    font-size: 12px; 
   }
 }
 
@@ -211,14 +211,14 @@ left: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 140vh; /* or any specific height you want */
+  height: 140vh; 
 }
 
 .profile-pic-container {
   position: absolute;
   height: 110vh;
   width: 80vh; 
-  margin: 80px; /* Adjust this value to position the container as needed */
+  margin: 80px; 
   padding: 15px;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -229,8 +229,8 @@ left: 100px;
 }
 
 .profile-pic {
-  width: 80%; /* Adjust the width as needed */
-  border-radius: 50%; /* This will make the image circular; remove if not needed */
+  width: 80%; 
+  border-radius: 50%; 
 }
 
 .profile-text {
@@ -250,7 +250,7 @@ left: 100px;
 
 .emergency-item {
   margin-bottom: 8px;
-  /* Add any specific styling for each list item here */
+
 }
 
 .emergency-link {
@@ -332,51 +332,51 @@ left: 100px;
 
 .box-image {
   max-width: 20vh;
-  border-radius: 5px; /* Optional: for rounded image corners */
+  border-radius: 5px; 
 }
 
 .box-link {
   display: block;
-  margin-top: 10px; /* Adjust as necessary */
+  margin-top: 10px; 
   text-decoration: none;
-  color: black; /* Or any color you prefer */
+  color: black; 
 }
 
 
 .emergency-heading {
-  font-size: 1.5rem; /* Adjust font size as needed */
-  color: #080808; /* Adjust color as needed */
+  font-size: 1.5rem; 
+  color: #080808; 
   margin-bottom: 1rem;
   text-align: center; /* Center the heading */
 }
 
 .emergency-list {
-  list-style-type: none; /* Removes default list styling */
+  list-style-type: none; 
   padding: 0; /* Removes default padding */
   margin: 0; /* Removes default margin */
   display: flex;
   flex-direction: column;
   align-items: center; /* Centers items horizontally */
   justify-content: space-around; /* Distributes items equally */
-  height: 120%; /* Adjust height as needed */
+  height: 120%; 
 }
 
 .emergency-item {
   width: 120%; /* Takes full width of the container */
   text-align: center; /* Center the text */
-  margin: 0.5rem 0; /* Adjust margin as needed */
+  margin: 0.5rem 0; 
 }
 
 .emergency-link {
-  font-size: 1rem; /* Adjust font size as needed */
-  color: #030303; /* Adjust color as needed */
-  text-decoration: none; /* Removes underline from links */
+  font-size: 1rem; 
+  color: #030303; 
+  text-decoration: none; 
 }
 
-/* Add hover effect for links (Optional) */
+
 .emergency-link:hover {
-  text-decoration: underline; /* Adds underline on hover */
-  color: #ffd700; /* Adjust hover color as needed */
+  text-decoration: underline;
+  color: #ffd700; 
 }
 
 .cob-container {
@@ -398,13 +398,13 @@ left: 100px;
   margin: 10px;
   padding: 10px;
   text-align: center;
-  width: 560px; /* Adjust as needed */
+  width: 560px; 
 }
 
 .video-description {
   margin-top: 10px;
-  font-size: 1rem; /* Adjust font size as needed */
-  color: #000; /* Adjust color as needed */
+  font-size: 1rem; 
+  color: #000; 
 }
 
 /* Please note that some code was used from Chat to assist with some errors and touchups.  */
